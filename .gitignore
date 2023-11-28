@@ -1,0 +1,4 @@
+# Ignore merged_data.csv file
+data/merged_data.csv
+merged_data.csv
+merged_with_nearby.csv
