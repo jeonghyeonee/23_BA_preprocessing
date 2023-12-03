@@ -3,6 +3,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 import numpy as np
 import pandas as pd
+from sklearn.model_selection import KFold
+from sklearn.metrics import r2_score
 
 #load data
 data = pd.read_csv('merged_data.csv', encoding='utf-8')
@@ -60,3 +62,13 @@ rmse_test = mean_squared_error(y_test, y_pred_test, squared=False)
 print(f'Test MSE: {mse_test}')
 print(f'Test MAE: {mae_test}')
 print(f'Test RMSE: {rmse_test}')
+
+# R-squared 계산
+# 훈련 데이터에서의 R-squared 계산
+r2_train = r2_score(y_train, y_pred_train)
+
+# 테스트 데이터에서의 R-squared 계산
+r2_test = r2_score(y_test, y_pred_test)
+
+print("R-squared for training data:", r2_train)
+print("R-squared for test data:", r2_test)
