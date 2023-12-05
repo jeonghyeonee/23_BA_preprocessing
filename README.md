@@ -52,9 +52,9 @@ The Seoul Public Bike project has faced financial challenges, with deficits incr
 
 ### Model Details
 
-- [XGBoost Model Details](https://github.com/jeonghyeonee/23_BA_preprocessing_modeling/XGBoost_modeling.md): Detailed explanation and code related to the XGBoost model.
-- [LightGBM Model Details](https://github.com/jeonghyeonee/23_BA_preprocessing_modeling/LGBM_modeling.md): Detailed explanation and code related to the LightGBM model.
-- [Ensemble Model Details](<(https://github.com/jeonghyeonee/23_BA_preprocessing_modeling/Ensemble_modeling.md)>): Detailed explanation and code related to the Ensemble model.
+- [XGBoost Model Details](https://github.com/jeonghyeonee/23_BA_preprocessing_modeling/blob/main/XGBoost_modeling.md): Detailed explanation and code related to the XGBoost model.
+- [LightGBM Model Details](https://github.com/jeonghyeonee/23_BA_preprocessing_modeling/blob/main/LGBM_modeling.md): Detailed explanation and code related to the LightGBM model.
+- [Ensemble Model Details](https://github.com/jeonghyeonee/23_BA_preprocessing_modeling/blob/main/Ensemble_modeling.md): Detailed explanation and code related to the Ensemble model.
 
 ### Model Versions
 
